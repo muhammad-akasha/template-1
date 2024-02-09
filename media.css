@@ -80,7 +80,7 @@
         width: 22%;}
 }
 
-@media only screen and (min-width:784px) and (max-width:1300px){
+@media only screen and (min-width:784px) and (max-width:1200px){
     body{
         padding: 0px
     }
@@ -91,13 +91,13 @@
         font-size: 25px
     }
     .nav-links{
-        font-size: 20px;width: 50%;
+        font-size: 20px;width: 45%;
     }
     .link{
         font-size: 20px
     }
     .nav-sign {
-        width: 30%;
+        width: 25%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -106,7 +106,7 @@
             font-size: 20px
         }
         .sign-in {
-            padding:2px 5px ;font-size: 16px
+            padding:5px 15px ;font-size: 16px
         }
         .contentheading>h1 {
             padding: 0px;font-size: 60px;height: 75px
@@ -120,4 +120,12 @@
         div>h6{
             font-size: 15px
         }
+}
+@media only screen and (min-width:1101px) and (max-width:1200px){
+    .nav-links{
+        font-size: 20px;width: 45%;
+    }
+    .nav-sign{
+        width: 20%
+    }
 }

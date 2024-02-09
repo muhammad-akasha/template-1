@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&display=swap');
+
 body{
     background: #ffffff;text-transform: capitalize;padding:0px 100px;text-align: center;font-family: 'DM Sans', sans-serif;
 }
@@ -8,9 +9,12 @@ body{
 .navlogo{
     font-weight: 300
 }
-.nav-links{display: flex;justify-content: space-around;width: 40%;font-size: 16px;font-weight: 300;color:gray;}
+.nav-links{display: flex;justify-content: space-around;width: 40%;font-size: 22px;font-weight: 300;color:gray;}
 .nav-sign{
-    width: 18%;display:flex;justify-content: space-between;align-items: center;color:gray
+    width: 20%;display:flex;justify-content: space-between;align-items: center;color:gray
+}
+.nav-sign p{
+    font-size: 20px
 }
 .sign-in{
     padding: 5px 15px ;border-radius: 20px ;background-color:aqua;width: fit-content;color:gray
@@ -30,7 +34,7 @@ body{
 
 }
 span{
-    color: #1E0E62
+    color: #1E0E62;font-size: 27px
 }
 .contentpara>p{
     width: 55%;height: 96px;color: #15143966;font-size: 22px
@@ -43,11 +47,11 @@ span{
     width: 100%;display: flex;justify-content: center;
 }
 .purchasebtn>h5{
-  width: fit-content;padding: 10px 25px; font-size: 16px;background: aqua;color: #ffffff;border-radius: 20px
+  width: fit-content;padding: 10px 25px; font-size: 18px;background: aqua;color: #ffffff;border-radius: 20px
 }
 .learn{
     width: 100%;display: flex;justify-content: center;position: relative;top: -45px
 }
 div>h6{
-    font-size: 14px;color: aqua;width: fit-content
+    font-size: 16px;color: aqua;width: fit-content
 }
